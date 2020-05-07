@@ -1,0 +1,13 @@
+server:
+   port: 7777
+   
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://127.0.0.1:8888/eureka
+         # 多台注册中心服务器
+         # defaultZone: http://127.0.0.1:8887/eureka,http://127.0.0.1:8888/eureka
+         
+spring:
+   application:
+      name: client1
